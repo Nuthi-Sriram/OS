@@ -4,7 +4,7 @@
 void main(){
 int pid;
 pid=fork();
-if(fork==0){
+if(pid==0){
 execlp("/home/sriram/Documents/work/OS/SourceCode/numberOfDigits","numberOfDigits",NULL);
 }
 else{
