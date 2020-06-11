@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<sys/types.h>
+#include<unistd.h>
 void main(){
 int n;
 printf("Enter a number \n");
